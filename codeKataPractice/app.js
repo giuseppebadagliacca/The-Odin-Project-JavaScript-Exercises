@@ -14,16 +14,25 @@ function squareDigits(num){
 
 // console.log(typeof squareDigits(9119))
 
-// Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string. Examples:(Input1, Input2 --> Output (explanation)))
+// Very simple, given an integer or a floating-point number, find its opposite.
 
-function addBinary(a,b) {
-  let binaryOutput = [], num = a+b
-
- while(num/2 !== 0){
-   binaryOutput.push(num/2)
-   num = num%2
- }
- return parseFloat([...binaryOutput,0].join(''))
+function opposite(number) {
+  // if(number < 0){
+  //   return Math.abs(number)
+  // }else{
+  //   return number-number-number
+  // }
+  return number < 0 ? Math.abs(number):number-number-number 
 }
 
-console.log(addBinary(74,1))
+// console.log(opposite(43))
+
+//Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
+
+const uniqueInOrder=function(iterable){
+  if(Array.isArray(iterable)){
+    
+  }else{
+
+  }
+}
